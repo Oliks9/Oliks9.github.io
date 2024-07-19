@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma&display=swap
+);
+
+body {
+    font-size: 1.5em;
+    font-family: Michroma, serif;
+    background: linear-gradient(320deg, #4300e0 0%, #474747 100%);
+}
+
+.n-text {
+    color: aquamarine;
+}
+section {
+    max-width: 2560px;
+    min-height: 1422px;
+}
+
+.nav-link {
+    color: rgb(155, 153, 153);
+}
+
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-brand>img {
+    max-width: 45px;
+}
+
+.navbar-toggler {
+    background-color: rgb(155, 153, 153);
+}
+.card {
+    background: linear-gradient(120deg, #4300e0 0%, #474747 100%);
+    color: aquamarine;
+}
+
+.side-bar {
+    padding: 10px;
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 10px;
+    background: linear-gradient(47deg, #30425c 31%, #2a3229 100%);
+    color: rgb(155, 153, 153);
+}
+.side-bar:hover {
+    color: aquamarine;
+    background: linear-gradient(47deg, #30425c 31%, #2a3229 100%);
+}
+
+.side-bar a {
+    /* Убирает подчёркивание и выделение ссылок */
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Работа с index */
+.my-text,
+.footer-text {
+    /* Центрирует текст */
+    margin: auto auto;
+    color: rgb(255, 115, 59);
+}
+.footer-text a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer {
+    background: linear-gradient(47deg, #30425c 31%, #2a3229 100%);
+    color: rgb(155, 153, 153);
+    text-align: center;
+    padding: 10px;  
+    border-top: 3px solid rgb(155, 153, 153);
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 0.8em;
+    width: 100%;
+    
+}
+
+.call-animation:hover {
+    animation: myAnim 2s cubic-bezier(0.61, 1, 0.88, 1) 0s infinite normal forwards;}
+    @keyframes myAnim {
+        0%,
+        100% {
+            transform: rotate(0deg);
+            transform-origin: 50% 50%;
+        }
+    
+        10% {
+            transform: rotate(8deg);
+        }
+    
+        20%,
+        40%,
+        60% {
+            transform: rotate(-10deg);
+        }
+    
+        30%,
+        50%,
+        70% {
+            transform: rotate(10deg);
+        }
+    
+        80% {
+            transform: rotate(-8deg);
+        }
+    
+        90% {
+            transform: rotate(8deg);
+        }
+    }
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}

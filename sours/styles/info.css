@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma&display=swap
+);
+
+body {
+    font-size: 1.5em;
+    font-family: Michroma, serif;
+    background: linear-gradient(320deg, #4300e0 0%, #474747 100%);
+}
+
+section {
+    max-width: 2560px;
+    min-height: 1422px;
+}
+
+.nav-link {
+    color: rgb(155, 153, 153);
+}
+
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-brand>img {
+    max-width: 45px;
+}
+
+.navbar-toggler {
+    background-color: rgb(155, 153, 153);
+}
+
+
+.footer-text {
+    /* Центрирует текст */
+    margin: auto auto;
+    color: rgb(255, 115, 59);
+}
+
+
+footer {
+    background: linear-gradient(47deg, #30425c 31%, #2a3229 100%);
+    color: rgb(155, 153, 153);
+    text-align: center;
+    padding: 10px;  
+    border-top: 3px solid rgb(155, 153, 153);
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 0.8em;
+    width: 100%;
+    
+}
+.footer-text a{
+    color: rgb(255, 115, 59);
+    text-decoration: none;
+    
+}
+
+.text-main-my {
+    margin: auto auto;
+    background-color: rgb(4, 243, 243);
+    color: rgb(255, 115, 59);
+    max-width: 1024px;
+    max-height: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cool-comanda>a>img {
+    
+    display: block;
+    margin: auto auto;
+    width: 400px;
+}
+
+.but-exit {
+    display: block;
+    margin: auto auto;
+    max-width: 100px;
+    
+    
+   
+}
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
